@@ -1,1 +1,1 @@
-Private Discord bot. 
+Personal Private Discord bot. 
