@@ -161,14 +161,6 @@ client.on("messageCreate", async(message) => {
 			message.channel.send("Crazy? I was crazy once. They locked me in a room. A rubber room. A rubber room with rats. And rats make me crazy.");
 		};
 
-		// "Homophobic" auto-responses
-		if (message.content.includes('gay')) {
-			const homoResponses = ["i know what you are", "i don't think that's normal", "i just can't support that kind of mindset", "Just saw something lgbt", "whoa that's a little bit too gay", "pack it up skittles squad", "let's hope it's just a phase", "i have a homophobic slur to say", "not too fond of gay people", "you put what in your butt", "keep it in the bedroom", "it's a choice", "it just isn't natural"];
-			const homoResponseIndex = Math.floor(Math.random() * homoResponses.length);
-			// const emoji = client.emojis.cache.get('1126726763670667315'); <-- homophobic dog emoji
-			message.channel.send(homoResponses[homoResponseIndex] + ` :dog:`);
-		};
-
 		// "69" auto-response
 		if (message.content.includes('69')) {
 			message.channel.send("nice");
