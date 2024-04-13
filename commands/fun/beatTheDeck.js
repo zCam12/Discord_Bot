@@ -1,3 +1,5 @@
+// WORK IN PROGRESS
+
 const { SlashCommandBuilder } = require("discord.js");
 
 module.exports = {
