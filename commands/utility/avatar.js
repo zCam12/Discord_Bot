@@ -6,13 +6,9 @@ module.exports = {
 		.setDescription('Displays avatar of mnetioned user or your own')
         .addMentionableOption(option => option.setName('person').setDescription('The person\'s whos avatar you\'d like.')),
 	async execute(interaction) {
-		var target;
 
-		if(interaction.options.getMentionable('person') == null){
-			target = interaction.user;
-		}else{
-			target = interaction.options.getMentionable('person');
-		}
+		var target = interaction.options.getMentionable('person') || interaction;
+		target = target.user;
 
 		// Find color role
         var color = null;
@@ -30,6 +26,7 @@ module.exports = {
 		// Create embed
 		const embed = new EmbedBuilder()
 			.setColor(color)
+			.setTitle(`${target.username}'s avatar`)
 			.setImage(target.displayAvatarURL({ dynamic: true }))
 			.setFooter(footer = { text: (`Requested by ${interaction.user.username}`) });
 
