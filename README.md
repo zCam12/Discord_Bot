@@ -4,4 +4,4 @@ Personal Private Discord bot.
 - Used only in my private server
 - Updated and maintained in my free time
   
-The config provided is setup exactly like mine except without the data.
+The config provided is set up exactly like mine except without the data.
