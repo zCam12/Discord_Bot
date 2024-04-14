@@ -1,3 +1,5 @@
+// TODO: FIX - doesn't work anymore unknown error
+
 const { SlashCommandBuilder } = require('discord.js');
 
 module.exports = {
