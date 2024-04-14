@@ -1,0 +1,6 @@
+{
+    "token": "BOT-TOKEN-HERE",
+    "clientId": "BOT-ID-HERE",
+    "guildId": "GUILD-ID-HERE",
+    "prefix": "PREFIX-HERE"
+}
