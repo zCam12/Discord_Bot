@@ -4,7 +4,7 @@ module.exports = {
 	data: new SlashCommandBuilder()
 		.setName('avatar')
 		.setDescription('Displays avatar of mnetioned user or your own')
-        .addMentionableOption(option => option.setName('person').setDescription('The person\'s whos avatar you\'d like.')),
+        	.addMentionableOption(option => option.setName('person').setDescription('The person\'s whos avatar you\'d like.')),
 	async execute(interaction) {
 	
 		var target = interaction.options.getMentionable('person') || interaction;
