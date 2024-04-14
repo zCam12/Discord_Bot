@@ -1,4 +1,4 @@
-// WORK IN PROGRESS
+// TODO: WORK IN PROGRESS
 
 const { SlashCommandBuilder } = require("discord.js");
 
