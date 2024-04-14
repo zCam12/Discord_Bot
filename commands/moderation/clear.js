@@ -1,4 +1,4 @@
-// TODO: FIX - doesn't work anymore unknown error
+// FIXME: unknown error
 
 const { SlashCommandBuilder } = require('discord.js');
 
