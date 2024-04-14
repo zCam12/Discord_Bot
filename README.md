@@ -5,7 +5,3 @@ Personal Private Discord bot.
 - Updated and maintained in my free time
   
 The config provided is set up exactly like mine except without the data.
-
-Personal Favorite parts:
-- Quote command
-- Level system based on messages sent
